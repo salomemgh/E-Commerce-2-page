@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: popins-bold;
+    src: url(Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: popins-regular;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: popins-medium;
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: popins-light;
+    src: url(Poppins-Light.ttf);
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(1.02deg, #FC0B0D -160.21%, rgba(74, 153, 211, 0) 50.91%), #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.26);
+    transform: rotate(-180deg);
+}
+.header1{
+    width: 261px;
+    transform: rotate(180deg);
+    z-index: -3;
+    margin-right: 238px;
+}
+.online{
+    font-weight: 700;
+    font-size: 40px;
+    color: #4A99D3;
+    font-family: popins-bold;
+}
+.header2{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    margin-left: 127px;
+}
+.register{
+    border: none;
+    background: none;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0F001A;
+    font-family: popins-regular;
+}
+.add{
+    padding-left: 40px;
+}
+.sell{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0F001A;
+    font-family: popins-regular;
+}
+
+.container1{
+    margin-top: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 850px;
+}
+.right{
+    width: 450px;
+}
+
+.signup, .signin{    
+    width: 239px;
+    height: 52px;
+    background: #E6E6E6;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: popins-medium;
+    margin-left: -30px;
+}
+.signin{
+    background: #EAF6FF;
+}
+
+.h3_create{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: popins-medium;
+    line-height: 48px;
+    margin-bottom: 0;
+    margin-top: 12px;
+
+}
+.paragraph_lets{
+    font-weight: 300;
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: popins-light;
+    line-height: 24px;
+    margin-top: 0;
+
+}
+
+form{
+    margin-top: 68px;
+    width: 410px;
+    height: 560px;
+}
+input{
+    height: 40px;
+    width: 410px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: popins-regular;
+}
+.button_create{
+    margin-top: 69px;
+    width: 420px;
+    height: 65px;
+    background: #FC0B0D;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-family: popins-medium;
+}
+.button_sign{
+    margin-top: 20px;
+    width: 420px;
+    height: 65px;
+    border: 1px solid #8D8D8D;
+    border-radius: 20px;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FC0B0D;
+    letter-spacing: 0.02em;
+    font-family: popins-medium;
+}
+.G{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 65px;
+}
+.paragraph7{
+    margin-top: 93px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: popins-regular;
+}
+.span1{
+    color: rgba(62, 193, 243, 1);
+}
+
+footer{
+    margin-top: 99px;
+    width: 100%;
+    height: 404px;
+    background: #EAF6FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h3_onlineshop{
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+    font-family: I-regular;
+}
+.text_lorem2, .text_lorem3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #504A41;
+    font-family: M-regular;
+    line-height: 22px;
+}
+.text_lorem3{
+    line-height: 50px;
+    padding-left: 22px;
+}
+.text_lorem4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #504A41;
+    font-family: M-regular;
+}
+
+
+
+.h3_contactus, .h3_aboutus{
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    font-family: medium;
+}
+
+.text_lorem3{
+    line-height: 50px;
+    padding-left: 22px;
+}
+
+.about{
+    margin-top: -70px;
+}
+
+
